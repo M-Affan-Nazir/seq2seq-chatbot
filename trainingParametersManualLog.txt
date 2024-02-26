@@ -1,0 +1,22 @@
+1) 
+    Architecture  1:
+
+    Note:
+    You can add more than 1 attention layers
+    second attention layer can be added ON THE OUTPUT of the first attention layer to create a more complex relationship
+    Second attention layer can be added to the same inputs as given to the first attention layer (or different inputs; as per infrasructure)
+    Careful plan of instructure (which different inputs to attention layer) has to be done; in order for full potential to be utilized'
+    Next: Add an attention Layer
+
+
+2) 
+    Architecture  2:
+    
+    1 Attention layer 
+
+    Note:
+    Model is performing better.
+    Next: Add validation data and checkpoint
+    
+
+    
