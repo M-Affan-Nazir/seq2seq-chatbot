@@ -2,13 +2,15 @@
 A sequence-to-sequence chatbot built using a deep learning model architecture comprising an encoder and decoder with LSTM layers. The model is trained on the Cornell Movie Dialogs Corpus.
 
 ### Pictures of Trained Model Performance:
-<img src="./assets/1.png" style="width: 200px;" alt="Model Performance Image 1">
-<img src="./assets/2.png" style="width: 200px;" alt="Model Performance Image 2">
-<img src="./assets/3.png" style="width: 200px;" alt="Model Performance Image 3">
-<img src="./assets/4.png" style="width: 200px;" alt="Model Performance Image 4">
-<img src="./assets/5.png" style="width: 200px;" alt="Model Performance Image 5">
-<img src="./assets/6.png" style="width: 200px;" alt="Model Performance Image 6">
+<div style="display: flex; gap: 10px;">
+    <img src="./assets/1.png" style="width: 200px;" alt="Model Performance Image 1">
+    <img src="./assets/2.png" style="width: 200px;" alt="Model Performance Image 2">
+    <img src="./assets/3.png" style="width: 200px;" alt="Model Performance Image 3">
+    <img src="./assets/4.png" style="width: 200px;" alt="Model Performance Image 4">
+    <img src="./assets/5.png" style="width: 200px;" alt="Model Performance Image 5">
+    <img src="./assets/6.png" style="width: 200px;" alt="Model Performance Image 6">
 <img src="./assets/7.png" style="width: 200px;" alt="Model Performance Image 7">\
+</div>
 
 ### Model Architecture:
 <img src="./assets/architecture.png" style="width: 300px;" alt="Model Architecture">
