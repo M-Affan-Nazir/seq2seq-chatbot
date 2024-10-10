@@ -139,7 +139,11 @@ def decode(array):
                 lst.append(inverseVocabulary[num])
     return lst
 
+<<<<<<< HEAD
 seq2seq = tf.keras.models.load_model("./seq2seqChatbot3.h5")
+=======
+seq2seq = tf.keras.models.load_model("./seq2seqChatbot2.h5")
+>>>>>>> 4d40188c5c9268557d976e38363647774180cc06
 print(seq2seq.summary())
 
 

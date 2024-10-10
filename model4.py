@@ -188,11 +188,21 @@ model = seq2seq()
 
 checkPoint = tf.keras.callbacks.ModelCheckpoint(
                                                         "./seq2seqChatbot3.h5",
+<<<<<<< HEAD
                                                         monitor = "acc",
                                                         save_best_only=True,
                                                         mode='max',
+=======
+                                                        monitor = "val_loss",
+                                                        save_best_only=True,
+                                                        mode='min',
+>>>>>>> 4d40188c5c9268557d976e38363647774180cc06
                                                         save_freq='epoch'
                                                 )
     
 
+<<<<<<< HEAD
 model.fit([encoderInput,decoderInput], decoderFinalOutput, callbacks=[checkPoint], epochs=100)
+=======
+model.fit([trainEncoder,trainDecoder], trainFinalDecoder, validation_data=([testEncoder, testDecoder], testFinalDecoder), callbacks=[checkPoint], epochs=35)
+>>>>>>> 4d40188c5c9268557d976e38363647774180cc06
