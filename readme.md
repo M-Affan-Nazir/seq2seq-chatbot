@@ -1,6 +1,18 @@
 # Sequence-to-Sequence Chatbot
 A sequence-to-sequence chatbot built using a deep learning model architecture comprising an encoder and decoder with LSTM layers. The model is trained on the Cornell Movie Dialogs Corpus.
 
+### Pictures of Trained Model Performance:
+<img src="./assets/1.png" style="width: 200px;" alt="Model Performance Image 1">
+<img src="./assets/2.png" style="width: 200px;" alt="Model Performance Image 2">
+<img src="./assets/3.png" style="width: 200px;" alt="Model Performance Image 3">
+<img src="./assets/4.png" style="width: 200px;" alt="Model Performance Image 4">
+<img src="./assets/5.png" style="width: 200px;" alt="Model Performance Image 5">
+<img src="./assets/6.png" style="width: 200px;" alt="Model Performance Image 6">
+<img src="./assets/7.png" style="width: 200px;" alt="Model Performance Image 7">\
+
+### Model Architecture:
+<img src="./assets/architecture.png" style="width: 300px;" alt="Model Architecture">
+
 ### Introduction
 This project implements a chatbot using a sequence-to-sequence model with attention mechanisms. The chatbot is trained on conversational data from movies to generate human-like responses.
 
@@ -32,18 +44,3 @@ Data preprocessing is handled within model4.py and involves:
 
 ### Acknowledgments
 Cornell Movie Dialogs Corpus: For providing the dataset used for training.
-
-
-
-### Pictures of Trained Model Performance:
-![1](./assets/1.png) ![2](./assets/2.png)
-
-![3](./assets/3.png) ![4](./assets/4.png)
-
-![5](./assets/5.png) ![6](./assets/6.png)
-
-![7](./assets/7.png)
-
-
-### Model Architecture:
-![model-architecture](./assets/architecture.png)
